@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Document</title>
+</head>
+<body>
+    <section class="form-register">
+     <h1>REGISTRO</h1> 
+        <input class="control" type="text" required pattern="[A-Z]" name="nombre" id="nombre" placeholder="Ingreses sus nombres" >
+        <br>
+        <input class="control" type="text" name="apellido" id="apellido" placeholder="Ingrese sus apllidos">
+        <br>
+        <input class="control" type="email" name="correo electronico" id="correo" placeholder="ingrese su correo">
+        <br>
+        <input class="control" type="password" name="password" id="pasword" placeholder="ingrese su contraseña">
+        <br>
+        <select class="control"  name="asunto" id="asunto" placeholder="ingrese su asunto">
+
+            <a>  <option value="minorista"> minorista </option> </a>
+            <a>  <option value="mayorista"> mayorista  </option> </a>
+            
+          </select>
+        
+        <br>
+        <p>Estoy de acuerdo con <a  id="termino" >Terminos y Condiciones</a></p>
+        <p>Condiciones clip para descargar <a href="descarga/lorem.docx" id="pdf" href="descarga/lorem.docx" download="lorem">pdf</a></p>
+        <br>
+        <input class="botons" type="submit" value="enviar">
+        <p><a href="#">¿Ya tenes Cuenta?</a></p>
+         </section>
+
+        
+         
+        <script src="./java.js"> </script>
+
+</body>
+</html>
